@@ -13,9 +13,11 @@
 		454D08812909AE3E00F75930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454D087F2909AE3E00F75930 /* Main.storyboard */; };
 		454D08832909AE3F00F75930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454D08822909AE3F00F75930 /* Assets.xcassets */; };
 		454D08862909AE3F00F75930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454D08842909AE3F00F75930 /* LaunchScreen.storyboard */; };
+		A611A5C5D0616895D1E12EEA /* Pods_Rovers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6888B1A3AAAACED5E10647CE /* Pods_Rovers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		240269D9D57A9C7081F0A1BE /* Pods-Rovers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rovers.release.xcconfig"; path = "Target Support Files/Pods-Rovers/Pods-Rovers.release.xcconfig"; sourceTree = "<group>"; };
 		454D08762909AE3E00F75930 /* Rovers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rovers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		454D08792909AE3E00F75930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		454D087B2909AE3E00F75930 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		454D08822909AE3F00F75930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		454D08852909AE3F00F75930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		454D08872909AE3F00F75930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6888B1A3AAAACED5E10647CE /* Pods_Rovers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rovers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6F90A67E0591B710BFEEDB /* Pods-Rovers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rovers.debug.xcconfig"; path = "Target Support Files/Pods-Rovers/Pods-Rovers.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A611A5C5D0616895D1E12EEA /* Pods_Rovers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				454D08782909AE3E00F75930 /* Rovers */,
 				454D08772909AE3E00F75930 /* Products */,
+				5F6FCBFD060504549DD279D0 /* Pods */,
+				761780BF35AAD255BBA811AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = Rovers;
 			sourceTree = "<group>";
 		};
+		5F6FCBFD060504549DD279D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE6F90A67E0591B710BFEEDB /* Pods-Rovers.debug.xcconfig */,
+				240269D9D57A9C7081F0A1BE /* Pods-Rovers.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		761780BF35AAD255BBA811AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6888B1A3AAAACED5E10647CE /* Pods_Rovers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 454D088A2909AE3F00F75930 /* Build configuration list for PBXNativeTarget "Rovers" */;
 			buildPhases = (
+				7CDA6E3FC4763D7CEF34097C /* [CP] Check Pods Manifest.lock */,
 				454D08722909AE3E00F75930 /* Sources */,
 				454D08732909AE3E00F75930 /* Frameworks */,
 				454D08742909AE3E00F75930 /* Resources */,
+				F374F8C6BF56B9A6E11D313F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CDA6E3FC4763D7CEF34097C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rovers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F374F8C6BF56B9A6E11D313F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rovers/Pods-Rovers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rovers/Pods-Rovers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rovers/Pods-Rovers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		454D08722909AE3E00F75930 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		454D088B2909AE3F00F75930 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6F90A67E0591B710BFEEDB /* Pods-Rovers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +379,7 @@
 		};
 		454D088C2909AE3F00F75930 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240269D9D57A9C7081F0A1BE /* Pods-Rovers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
