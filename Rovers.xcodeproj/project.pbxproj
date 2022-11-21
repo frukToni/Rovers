@@ -7,25 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4519E763290D5EBB006F08F1 /* RoverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519E762290D5EBB006F08F1 /* RoverType.swift */; };
+		4519E767290D6805006F08F1 /* RoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519E766290D6805006F08F1 /* RoversView.swift */; };
+		4519E76B290D689A006F08F1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519E76A290D689A006F08F1 /* ViewModel.swift */; };
+		4519E76D290D6A7F006F08F1 /* RoversCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519E76C290D6A7F006F08F1 /* RoversCell.swift */; };
+		4519E770290DAEF3006F08F1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4519E76F290DAEF3006F08F1 /* Localizable.strings */; };
+		45380F06291D82A100206355 /* ConfigurationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45380F05291D82A100206355 /* ConfigurationService.swift */; };
 		454D087A2909AE3E00F75930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454D08792909AE3E00F75930 /* AppDelegate.swift */; };
 		454D087C2909AE3E00F75930 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454D087B2909AE3E00F75930 /* SceneDelegate.swift */; };
 		454D087E2909AE3E00F75930 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454D087D2909AE3E00F75930 /* ViewController.swift */; };
-		454D08812909AE3E00F75930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454D087F2909AE3E00F75930 /* Main.storyboard */; };
 		454D08832909AE3F00F75930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454D08822909AE3F00F75930 /* Assets.xcassets */; };
 		454D08862909AE3F00F75930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454D08842909AE3F00F75930 /* LaunchScreen.storyboard */; };
+		455DF8562922C9C500E2DD5B /* URLProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455DF8552922C9C500E2DD5B /* URLProvider.swift */; };
+		45752A75291C31390014F398 /* Oppotunity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45752A74291C31390014F398 /* Oppotunity.plist */; };
+		45752A77291C31580014F398 /* Spirit.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45752A76291C31580014F398 /* Spirit.plist */; };
+		45752A79291C31690014F398 /* Curiosity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45752A78291C31690014F398 /* Curiosity.plist */; };
+		45849BD929167A0F00925C86 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45849BD829167A0F00925C86 /* Constants.swift */; };
+		45849BDB2916B30800925C86 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45849BDA2916B30800925C86 /* ProjectView.swift */; };
+		459B59872915821400CAE76B /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459B59862915821400CAE76B /* Localization.swift */; };
+		459B598C291587BA00CAE76B /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459B598B291587BA00CAE76B /* UIColor + ext.swift */; };
+		459B598E2915884500CAE76B /* UIFont + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459B598D2915884500CAE76B /* UIFont + ext.swift */; };
 		A611A5C5D0616895D1E12EEA /* Pods_Rovers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6888B1A3AAAACED5E10647CE /* Pods_Rovers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		240269D9D57A9C7081F0A1BE /* Pods-Rovers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rovers.release.xcconfig"; path = "Target Support Files/Pods-Rovers/Pods-Rovers.release.xcconfig"; sourceTree = "<group>"; };
+		4519E762290D5EBB006F08F1 /* RoverType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverType.swift; sourceTree = "<group>"; };
+		4519E766290D6805006F08F1 /* RoversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoversView.swift; sourceTree = "<group>"; };
+		4519E76A290D689A006F08F1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4519E76C290D6A7F006F08F1 /* RoversCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoversCell.swift; sourceTree = "<group>"; };
+		4519E76F290DAEF3006F08F1 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		45380F05291D82A100206355 /* ConfigurationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationService.swift; sourceTree = "<group>"; };
 		454D08762909AE3E00F75930 /* Rovers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rovers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		454D08792909AE3E00F75930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		454D087B2909AE3E00F75930 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		454D087D2909AE3E00F75930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		454D08802909AE3E00F75930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		454D08822909AE3F00F75930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		454D08852909AE3F00F75930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		454D08872909AE3F00F75930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455DF8552922C9C500E2DD5B /* URLProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProvider.swift; sourceTree = "<group>"; };
+		45752A74291C31390014F398 /* Oppotunity.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Oppotunity.plist; sourceTree = "<group>"; };
+		45752A76291C31580014F398 /* Spirit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Spirit.plist; sourceTree = "<group>"; };
+		45752A78291C31690014F398 /* Curiosity.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Curiosity.plist; sourceTree = "<group>"; };
+		4581EFEB291ACF5700C798F1 /* GillSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GillSans.ttf; path = "../../../../../Downloads/Gill Sans MT/GillSans.ttf"; sourceTree = "<group>"; };
+		45849BD829167A0F00925C86 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		45849BDA2916B30800925C86 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		459B59862915821400CAE76B /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		459B598B291587BA00CAE76B /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
+		459B598D2915884500CAE76B /* UIFont + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + ext.swift"; sourceTree = "<group>"; };
 		6888B1A3AAAACED5E10647CE /* Pods_Rovers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rovers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6F90A67E0591B710BFEEDB /* Pods-Rovers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rovers.debug.xcconfig"; path = "Target Support Files/Pods-Rovers/Pods-Rovers.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,6 +71,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4519E761290D5EA5006F08F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4519E762290D5EBB006F08F1 /* RoverType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4519E764290D671D006F08F1 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				45849BE02917998100925C86 /* ProjectView */,
+				454D087D2909AE3E00F75930 /* ViewController.swift */,
+				4519E76A290D689A006F08F1 /* ViewModel.swift */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		4519E771290DB4F6006F08F1 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				4519E76F290DAEF3006F08F1 /* Localizable.strings */,
+				459B59862915821400CAE76B /* Localization.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		454D086D2909AE3E00F75930 = {
 			isa = PBXGroup;
 			children = (
@@ -63,15 +119,107 @@
 		454D08782909AE3E00F75930 /* Rovers */ = {
 			isa = PBXGroup;
 			children = (
-				454D08792909AE3E00F75930 /* AppDelegate.swift */,
-				454D087B2909AE3E00F75930 /* SceneDelegate.swift */,
-				454D087D2909AE3E00F75930 /* ViewController.swift */,
-				454D087F2909AE3E00F75930 /* Main.storyboard */,
+				459B5988291584F100CAE76B /* Application */,
+				4519E761290D5EA5006F08F1 /* Models */,
+				459B59892915870B00CAE76B /* Helpers */,
+				4519E764290D671D006F08F1 /* Project */,
+				459B599129158E1500CAE76B /* Service */,
+				45849BD6291678D700925C86 /* SupportingFiles */,
+			);
+			path = Rovers;
+			sourceTree = "<group>";
+		};
+		455DF8542922C99B00E2DD5B /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				455DF8552922C9C500E2DD5B /* URLProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		45849BD6291678D700925C86 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				45849BD72916799700925C86 /* Config */,
+				4519E771290DB4F6006F08F1 /* Localization */,
+				45849BDE2916B81300925C86 /* Font */,
 				454D08822909AE3F00F75930 /* Assets.xcassets */,
 				454D08842909AE3F00F75930 /* LaunchScreen.storyboard */,
 				454D08872909AE3F00F75930 /* Info.plist */,
 			);
-			path = Rovers;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		45849BD72916799700925C86 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				45752A74291C31390014F398 /* Oppotunity.plist */,
+				45752A76291C31580014F398 /* Spirit.plist */,
+				45752A78291C31690014F398 /* Curiosity.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		45849BDE2916B81300925C86 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				4581EFEB291ACF5700C798F1 /* GillSans.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		45849BE02917998100925C86 /* ProjectView */ = {
+			isa = PBXGroup;
+			children = (
+				459B5985291581D500CAE76B /* View */,
+				45849BDA2916B30800925C86 /* ProjectView.swift */,
+			);
+			name = ProjectView;
+			sourceTree = "<group>";
+		};
+		459B5985291581D500CAE76B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4519E766290D6805006F08F1 /* RoversView.swift */,
+				4519E76C290D6A7F006F08F1 /* RoversCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		459B5988291584F100CAE76B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				454D087B2909AE3E00F75930 /* SceneDelegate.swift */,
+				454D08792909AE3E00F75930 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		459B59892915870B00CAE76B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				459B598A2915872200CAE76B /* Extensions */,
+				45849BD829167A0F00925C86 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		459B598A2915872200CAE76B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				459B598B291587BA00CAE76B /* UIColor + ext.swift */,
+				459B598D2915884500CAE76B /* UIFont + ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		459B599129158E1500CAE76B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				455DF8542922C99B00E2DD5B /* Providers */,
+				45380F05291D82A100206355 /* ConfigurationService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		5F6FCBFD060504549DD279D0 /* Pods */ = {
@@ -80,7 +228,6 @@
 				CE6F90A67E0591B710BFEEDB /* Pods-Rovers.debug.xcconfig */,
 				240269D9D57A9C7081F0A1BE /* Pods-Rovers.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,8 +300,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				454D08862909AE3F00F75930 /* LaunchScreen.storyboard in Resources */,
+				45752A77291C31580014F398 /* Spirit.plist in Resources */,
+				45752A79291C31690014F398 /* Curiosity.plist in Resources */,
+				45752A75291C31390014F398 /* Oppotunity.plist in Resources */,
+				4519E770290DAEF3006F08F1 /* Localizable.strings in Resources */,
 				454D08832909AE3F00F75930 /* Assets.xcassets in Resources */,
-				454D08812909AE3E00F75930 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,8 +357,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455DF8562922C9C500E2DD5B /* URLProvider.swift in Sources */,
+				4519E763290D5EBB006F08F1 /* RoverType.swift in Sources */,
+				45849BD929167A0F00925C86 /* Constants.swift in Sources */,
+				4519E76B290D689A006F08F1 /* ViewModel.swift in Sources */,
+				459B59872915821400CAE76B /* Localization.swift in Sources */,
 				454D087E2909AE3E00F75930 /* ViewController.swift in Sources */,
+				4519E76D290D6A7F006F08F1 /* RoversCell.swift in Sources */,
 				454D087A2909AE3E00F75930 /* AppDelegate.swift in Sources */,
+				45380F06291D82A100206355 /* ConfigurationService.swift in Sources */,
+				459B598C291587BA00CAE76B /* UIColor + ext.swift in Sources */,
+				45849BDB2916B30800925C86 /* ProjectView.swift in Sources */,
+				4519E767290D6805006F08F1 /* RoversView.swift in Sources */,
+				459B598E2915884500CAE76B /* UIFont + ext.swift in Sources */,
 				454D087C2909AE3E00F75930 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,14 +377,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		454D087F2909AE3E00F75930 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				454D08802909AE3E00F75930 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		454D08842909AE3F00F75930 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -361,9 +514,9 @@
 				INFOPLIST_FILE = Rovers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,9 +542,9 @@
 				INFOPLIST_FILE = Rovers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

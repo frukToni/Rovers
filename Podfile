@@ -6,6 +6,14 @@ target 'Rovers' do
   use_frameworks!
 
   # Pods for Rovers
-pod 'Alamofire'
-pod 'SnapKit'
+  pod 'Alamofire'
+  pod 'SnapKit'
+  pod 'KeychainSwift'
+  
+  pod 'Moya'
+  pod 'Moya/RxSwift'
+  
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxDataSources'
 end
